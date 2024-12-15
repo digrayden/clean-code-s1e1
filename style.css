@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-  .img-container { text-align: center;
+  .img-container { 
+  text-align: center;
 }
 }
 .main {
@@ -35,14 +36,14 @@ body {
   display: flex;
 }
 .main__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .main__item, .main__heading {
-  list-style:none;
+  list-style: none;
 }
 .main__input, .main__btn{
-  outline:none;
+  outline: none;
 }
 .main__btn {
   background: none;
@@ -133,14 +134,14 @@ body {
 
 /* Edit Task */
 .main__item .main__input-task {
-  display:none
+  display: none
 }
 
 .main__item.main__item--edit .main__input-task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .main__item.main__item--edit .main__label-task {
-  display:none;
+  display: none;
 }
